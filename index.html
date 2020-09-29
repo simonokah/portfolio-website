@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Portfolio</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+  </head>
+  <body>
+    <header class="l-header">
+      <nav class="nav bg-grid">
+        <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-menu'></i>
+        </div>
+
+        <div>
+          <a href="#" class="nav__logo">Oruaro</a>
+        </div>
+
+        <div class="nav__menu" id="nav-menu">
+          <div class="nav__close" id="nav-close">
+            <i class="bx bx-x"></i>
+          </div>
+
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+            <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contactme</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main class="l-main">
+      <section class="home" id="home">
+        <div class="home__container bg-grid">
+          <div class="home__data">
+            <div class="home__img">
+              <img src="/assets/img/oruaro.jpg" alt="">
+            </div>
+
+            <h1 class="home__title">Okah Oruaroghene</h1>
+            <span class="home__profession">Software Engineer</span>
+
+            <div class="home__social">
+              <!-- <a href="#" class="home__social-link"><i class='bx bxl-linkedin'></i></a> -->
+              <a href="https://github.com/simonokah?tab=repositories" class="home__social-link"><i class='bx bxl-github'></i></a>
+            </div>
+
+            <a download="" href="/assets/cv/OkahOruarogheneResume.pdf" class="button home__button">Download Resume</a>
+          </div>
+        </div>
+      </section>  
+      
+      <section class="about section" id="about">
+        <span class="section-subtitle">My intro</span>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about__container bd-grid">
+          <div class="about__data">
+            <p class="about__description">Hi, I'm a software engineer, passionate about creating and developing web applications.</p>
+            <img src="/assets/img/oruaro.jpg" alt="" class="about__img">
+          </div>
+
+          <div>
+            <div class="about__information">
+              <h3 class="about__information-title">Information</h3>
+  
+              <div class="about__information-data">
+                <i class='bx bx-user about__information-icon'></i>
+                <span>Okah Oruaroghene</span>
+              </div>
+  
+              <div class="about__information-data">
+                <i class='bx bx-phone about__information-icon'></i>
+                <span>08063632801</span>
+              </div>
+  
+              <div class="about__information-data">
+                <i class='bx bx-envelope about__information-icon'></i>
+                <span>simonokah@gmail.com</span>
+              </div>
+            </div>
+  
+            <div class="about__information">
+              <h3 class="about__information-title">Experience and support</h3>
+  
+              <div class="about__information-data">
+                <i class='bx bx-medal about__information-icon'></i>
+                <div>
+                  <span class="about__information-subtitle">2 Years</span>
+                  <span class="about__information-subtitle-small">Experience</span>
+                </div>
+              </div>
+  
+              <!-- <div class="about__information-data">
+                <i class='bx bx-briefcase about__information-icon'></i>
+                <div>
+                  <span class="about__information-subtitle">5+ Projects</span>
+                  <span class="about__information-subtitle-small">Completed</span>
+                </div>
+              </div> -->
+  
+              <div class="about__information-data">
+                <i class='bx bx-support about__information-icon'></i>
+                <div>
+                  <span class="about__information-subtitle">Support</span>
+                  <span class="about__information-subtitle-small">Online 24/7</span>
+                </div>
+              </div>
+            </div>
+          </div>  
+        </div>
+      </section>
+
+      <section class="skills sections" id="skills">
+        <span class="section-subtitle">Why Choose Me</span>
+        <h2 class="section-title">My Expertise Area</h2>
+
+        <div class="skills__container bd-grid">
+          <div class="skills__content">
+            <h3 class="skills__subtitle">Frontend</h3>
+
+            <div class="skills__data">
+              <span class="skills__name">Html/css</span>
+              <span class="skills__number">80%</span>
+              <span class="skills__bar skills__html"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">Javascript</span>
+              <span class="skills__number">90%</span>
+              <span class="skills__bar skills__js"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">React js</span>
+              <span class="skills__number">70%</span>
+              <span class="skills__bar skills__react"></span>
+            </div>
+          </div>
+          
+          <div class="skills__content">
+            <h3 class="skills__subtitle">Backend</h3>
+
+            <div class="skills__data">
+              <span class="skills__name">Node js</span>
+              <span class="skills__number">80%</span>
+              <span class="skills__bar skills__node"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">Postgres</span>
+              <span class="skills__number">70%</span>
+              <span class="skills__bar skills__postgres"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">Express</span>
+              <span class="skills__number">70%</span>
+              <span class="skills__bar skills__express"></span>
+            </div>
+
+            <div class="skills__data">
+              <span class="skills__name">Mongo DB</span>
+              <span class="skills__number">50%</span>
+              <span class="skills__bar skills__mongo"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="education section">
+        <span class="section-subtitle">Qualification</span>
+        <h2 class="section-title">My Education</h2>
+
+        <div class="education__container bd-grid">
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2012 - 2015</h3>
+              <span class="education__university">Delta State University</span>
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div>
+              <h3 class="education__race">Bachelor's</h3>
+              <span class="education__specialty">Mathematics</span>
+            </div>
+          </div>
+
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2018</h3>
+              <span class="education__university">Google Africa</span>
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div>
+              <h3 class="education__race">Google Africa Course</h3>
+              <span class="education__specialty">Frontend</span>
+            </div>
+          </div>
+
+          <div class="education__content">
+            <div>
+              <h3 class="education__year">2019 - 2020</h3>
+              <span class="education__university">Stutern Nigeria</span>
+            </div>
+
+            <div class="education__time">
+              <span class="education__rounder"></span>
+              <span class="education__line"></span>
+            </div>
+
+            <div>
+              <h3 class="education__race">Graduate Accelerator Course </h3>
+              <span class="education__specialty">Software Engineering</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section" id="services">
+        <span class="section-subtitle">What I Offer</span>
+        <h2 class="section-title">My Services</h2>
+
+        <div class="services__container bd-grid">
+          <div class="services__content">
+            <i class="bx bx-code services__icon"></i>
+            <h3 class="services__title">Frontend Development</h3>
+            <p class="services__description">I offer high quality frontend web development services</p>
+          </div>
+
+          <div class="services__content">
+            <i class="bx bx-code services__icon"></i>
+            <h3 class="services__title">Backend Development</h3>
+            <p class="services__description">I offer high quality backend web development services</p>
+          </div>
+
+          <div class="services__content">
+            <i class="bx bx-code services__icon"></i>
+            <h3 class="services__title">Fullstack Development</h3>
+            <p class="services__description">I offer high quality fullstack web development services</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="project section">
+        <div class="project__container bd-grid">
+          <div class="project__data">
+            <h2 class="section-title project__title">Do you have a project in mind</h2>
+            <p class="project_description">If you have a project that you want to carry out, do not hesitate and tell me what it is, and what services i can offer you. Contact me directly here.</p>
+            <a href="#contact" class="button button__light">Contact Me </a>
+          </div>
+
+          <img src="/assets/img/oruaro.jpg" alt="" class="project__img">
+        </div>
+      </section>
+
+      <section class="works section" id="works">
+        <span class="section-subtitle">My Portfolio</span>
+        <h2 class="section-title">Recent Projects</h2>
+
+        <div class="works__container bd-grid">
+          <div class="works__img">
+            <img src="/assets/img/laptop-2.jpg" alt="">
+
+            <div class="works__data">
+              <a href="https://e-report-app-staging.netlify.app/" class="works__link"><i class="bx bx-link-alt"></i></a>
+              <span class="works__title">E Report</span>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="/assets/img/laptop-2.jpg" alt="">
+
+            <div class="works__data">
+              <a href="https://simon-todo-app.netlify.app" class="works__link"><i class="bx bx-link-alt"></i></a>
+              <span class="works__title">Todo list app</span>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="/assets/img/laptop-2.jpg" alt="">
+
+            <div class="works__data">
+              <a href="https://simon-loan-calculator-app.netlify.app" class="works__link"><i class="bx bx-link-alt"></i></a>
+              <span class="works__title">Loan Calculator</span>
+            </div>
+          </div>
+
+          <div class="works__img">
+            <img src="/assets/img/laptop-2.jpg" alt="">
+
+            <div class="works__data">
+              <a href="https://ozurumba.github.io/E-Commerce-SGA7-1/" class="works__link"><i class="bx bx-link-alt"></i></a>
+              <span class="works__title">E-commerce page</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <span class="section-subtitle">Contact Me</span>
+        <h2 class="section-title">Get In Touch</h2>
+
+        <div class="contact__container bd-grid">
+          <!-- <form action="" class="contact__form">
+            <div class="contact__inputs">
+              <input type="text" placeholder="Name" class="contact__input">
+              <input type="mail" placeholder="Email" class="contact__input">
+            </div>
+
+            <input type="text" placeholder="Project" class="contact__input">
+
+            <textarea name="" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+            <input type="submit" value="Send Message" class="button contact__button">
+          </form> -->
+          <div>
+            <div class="contact__info">
+              <h3 class="contact__subtitle">Call me</h3>
+              <span class="contact__text">08063632801</span>
+            </div>
+
+            <div class="contact__info">
+              <h3 class="contact__subtitle">E-mail</h3>
+              <span class="contact__text">simonokah@gmail.com</span>
+            </div>
+
+            <div class="contact__info">
+              <h3 class="contact__subtitle">Location</h3>
+              <span class="contact__text">No 56 Old Ojo Road Moshalashi Bus stop</span>
+              <span class="contact__text">Amuwo Odofin - Lagos</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer section">
+      <div class="footer__container bd-grid">
+        <h1 class="footer__title">Oruaroghene</h1>
+        <p class="footer__description">I'm Oruaroghene and this is my personal website, consult me here</p>
+
+        <div class="footer__social">
+          <a href="https://www.instagram.com/simonokah/" class="footer__link"><i class="bx bxl-instagram"></i></a>
+          <a href="https://twitter.com/simon_okah" class="footer__link"><i class="bx bxl-twitter"></i></a>
+        </div>
+
+        <p class="footer__copy">All rights reserved by PeakCode - 2020</p>
+      </div>
+    </footer>
+    
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
